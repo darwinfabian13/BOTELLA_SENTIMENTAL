@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Botella de los Sentimientos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>¿Cómo te sientes hoy?</h1>
+  <div class="emociones">
+    <button data-emocion="feliz">😊 Feliz</button>
+    <button data-emocion="triste">😢 Triste</button>
+    <button data-emocion="enojada">😠 Enojada</button>
+    <button data-emocion="aburrida">😴 Aburrida</button>
+    <button data-emocion="ansiosa">😰 Ansiosa</button>
+  </div>
+
+  <div id="mensajeContainer" class="oculto">
+    <p id="mensajeTexto"></p>
+    <button id="escribirNota">📝 Escribir nota</button>
+    <button id="omitirMensaje">❌ Omitir</button>
+  </div>
+
+  <div id="notaContainer" class="oculto">
+    <textarea id="notaTexto" placeholder="Escribe lo que sientas..."></textarea>
+    <button id="guardarNota">Guardar nota</button>
+  </div>
+
+  <hr>
+  <button id="verNotas">📒 Ver Notas Guardadas</button>
+  <div id="historialNotas"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

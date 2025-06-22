@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.oculto {
+  display: none;
+}
+
+#mensajeContainer, #notaContainer {
+  margin-top: 20px;
+}
+
+.nota {
+  margin: 10px auto;
+  width: 80%;
+  padding: 15px;
+  border-radius: 10px;
+  color: #222;
+  text-align: left;
+}
+
+.feliz { background-color: #fff6b3; }
+.triste { background-color: #cce4ff; }
+.enojada { background-color: #ffcccc; }
+.aburrida { background-color: #e0e0e0; }
+.ansiosa { background-color: #d1f0dc; }
